@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progressão Aritmética</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/calc.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Fazendo uma P.A</h1>
+    </header>
+    <section>
+        <div>
+            <form id="newForm">
+                <p class="p">Primeiro termo: <input type="number" name="inicio" id="txti"></p>
+                <p class="p">Úlitmo termo: <input type="number" name="fim" id="txtf"></p>
+                <p class="p">Razão: <input type="number" name="razao" id="txtr">
+            </form>
+                <input type="button" value="Gerar P.A" id="botao" onclick="contar()">
+                <input type="button" value="Limpar" name="limpar" id="botao" onclick="limpar()"></p>
+        </div>
+        <p id="fora">Esta é sua P.A:</p>
+        <div id="res">
+            
+        </div>
+    </section>    
+    <footer>
+        <h2>&copy; Marquezini</h2>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
